@@ -1,0 +1,30 @@
+<!-- <p>view-training works!</p> -->
+
+<h2>Training Details</h2>
+<button class="btn btn-sm btn-success"  (click)="addTraining()"> Add Training</button>
+
+<table class="table table-striped mt-2">
+    <thead class="thead-light">
+        <tr>
+            <th class="hidden">Id</th>
+            <th>Training Names</th>
+            <th>Topics</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Update</th>
+            <th>Remove</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let training of trainings">
+            <td class="hidden"></td>
+            <td>{{training.trainingName}}</td>
+            <td>{{training.topicName}}</td>
+            <td>{{training.startDate}}</td>
+            <td>{{training.endDate}}</td>
+            <td><button class="btn btn-sm btn-primary" >Edit</button></td>
+            <td><button class="btn btn-sm btn-danger" (click)="deleteTraining(training)">Delete</button></td>            
+        </tr>
+    </tbody>
+
+</table>

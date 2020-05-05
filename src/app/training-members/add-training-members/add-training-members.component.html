@@ -1,0 +1,43 @@
+<!-- <p>add-training-members works!</p> -->
+
+<h2>Member Training Mapping </h2>
+<form [formGroup]="memberMapForm" (ngSubmit)="onSubmit()">
+    <table class="table table-striped">
+        <thead class="thead-light">
+            <tr>
+                <th>Team Members</th>
+                <th>Ongoing Training</th>
+                <th>Upcoming Training</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><select class="form-control" formControlName="teamMembers" id="teamMember" >
+                        <option *ngFor="let teamMember of teamMembers" [selected]="teamMember.firstName">
+                            {{teamMember.firstName}}
+                        </option>
+                    </select>
+                </td>
+                <td><select class="form-control" formControlName="ongoingTrainings" id="ongoingTraining">
+                        <option *ngFor="let ongoingTraining of ongoingTrainings">
+                            {{ongoingTraining.trainingName}}
+                        </option>
+                    </select>
+                </td>
+                <td><select class="form-control" formControlName="upcomingTrainings" id="upcomingTraining">
+                        <option *ngFor="let upcomingTraining of upcomingTrainings">
+                            {{upcomingTraining.trainingName}}
+                        </option>
+                    </select>
+                </td>
+                <td>
+                    <button class="btn btn-sm btn-success">Add</button>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+
+   
+</form>

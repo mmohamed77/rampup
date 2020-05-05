@@ -1,0 +1,225 @@
+{
+  "teamMembers": [
+    {
+      "id": 6,
+      "firstName": "John",
+      "lastName": "Lewis",
+      "phoneNumber": "778787888",
+      "emailId": "demo@cei.com"
+    },
+    {
+      "id": 7,
+      "firstName": "Giri",
+      "lastName": "Dhar",
+      "phoneNumber": "4323",
+      "emailId": "sd@cdi.com",
+      "training_id": 2
+    },
+    {
+      "id": 8,
+      "firstName": "Max",
+      "lastName": "Milan",
+      "phoneNumber": "42342",
+      "emailId": "sd@cdi.com"
+    },
+    {
+      "id": 9,
+      "firstName": "Telex",
+      "lastName": "Rexton",
+      "phoneNumber": "156256323",
+      "emailId": "dsa@cei.com"
+    },
+    {
+      "id": 11,
+      "firstName": "DonRexton",
+      "lastName": "Lenin",
+      "phoneNumber": "1234567896",
+      "emailId": "dfas@cei.com"
+    },
+    {
+      "id": 12,
+      "firstName": "Alex",
+      "lastName": "Pandi",
+      "phoneNumber": "22222",
+      "emailId": "ap@123.com"
+    }
+  ],
+  "upcomingTrainings": [
+    {
+      "id": 9,
+      "trainingName": "Angular",
+      "topicName": "yese",
+      "trainingSeason": "upcomingTrainings",
+      "startDate": "2020-05-15T18:30:00.000Z",
+      "endDate": "2020-05-22T18:30:00.000Z"
+    },
+    {
+      "id": 10,
+      "trainingName": "Microservice",
+      "topicName": "Topic1",
+      "trainingSeason": "upcomingTrainings",
+      "startDate": "2020-06-31T18:30:00.000Z",
+      "endDate": "2020-06-09T18:30:00.000Z"
+    },
+    {
+      "id": 11,
+      "trainingName": "Microservice",
+      "topicName": "Topic2",
+      "trainingSeason": "upcomingTrainings",
+      "startDate": "2020-06-31T18:30:00.000Z",
+      "endDate": "2020-06-09T18:30:00.000Z"
+    },
+    {
+      "id": 12,
+      "trainingName": "Microservice",
+      "topicName": "Topic3",
+      "trainingSeason": "upcomingTrainings",
+      "startDate": "2020-06-31T18:30:00.000Z",
+      "endDate": "2020-06-09T18:30:00.000Z"
+    },
+    {
+      "id": 14,
+      "trainingName": "DotNet",
+      "topicName": "MVC",
+      "trainingSeason": "upcomingTrainings",
+      "startDate": "2020-05-05T18:30:00.000Z",
+      "endDate": "2020-05-25T18:30:00.000Z"
+    }
+  ],
+  "ongoingTrainings": [
+    {
+      "id": 1,
+      "trainingName": "Docker",
+      "topicName": "Server",
+      "trainingSeason": "ongoingTrainings",
+      "startDate": "2020-03-15T18:30:00.000Z",
+      "endDate": "2020-04-02T18:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "trainingName": "Kubernetes",
+      "topicName": "Configuration",
+      "trainingSeason": "ongoingTrainings",
+      "startDate": "2020-04-01T18:30:00.000Z",
+      "endDate": "2020-04-18T18:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "trainingName": "BlockChain",
+      "topicName": "ServerConfig",
+      "trainingSeason": "ongoingTrainings",
+      "startDate": "2020-04-22T18:30:00.000Z",
+      "endDate": "2020-05-28T18:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "trainingName": "DataScience",
+      "topicName": "LinearAlg",
+      "trainingSeason": "ongoingTrainings",
+      "startDate": "2020-04-08T18:30:00.000Z",
+      "endDate": "2020-04-28T18:30:00.000Z"
+    }
+  ],
+  "memberMapTraining": [
+    {
+      "teamMembers": "Raj",
+      "ongoingTrainings": "Docker",
+      "upcomingTrainings": "Microservice",
+      "id": 2
+    },
+    {
+      "teamMembers": "John",
+      "ongoingTrainings": "Kubernetes",
+      "upcomingTrainings": "Angular",
+      "id": 3
+    },
+    {
+      "teamMembers": "Giri",
+      "ongoingTrainings": "Docker",
+      "upcomingTrainings": "Angular",
+      "id": 4
+    },
+    {
+      "teamMembers": "Giri",
+      "ongoingTrainings": "Kubernetes",
+      "upcomingTrainings": "Angular",
+      "id": 5
+    },
+    {
+      "teamMembers": "Max",
+      "ongoingTrainings": "Docker",
+      "upcomingTrainings": "Microservice",
+      "id": 6
+    },
+    {
+      "teamMembers": "John",
+      "ongoingTrainings": "Kubernetes",
+      "upcomingTrainings": "Angular",
+      "id": 7
+    },
+    {
+      "teamMembers": "Max",
+      "ongoingTrainings": "Blockchain",
+      "upcomingTrainings": "Microservice",
+      "id": 8
+    },
+    {
+      "teamMembers": "Alex",
+      "ongoingTrainings": "Blockchain",
+      "upcomingTrainings": "Angular",
+      "id": 9
+    },
+    {
+      "teamMembers": "Alex",
+      "ongoingTrainings": "Blockchain",
+      "upcomingTrainings": "DotNet",
+      "id": 10
+    },
+    {
+      "teamMembers": "DonRexton",
+      "ongoingTrainings": "DataScience",
+      "upcomingTrainings": "DotNet",
+      "id": 11
+    },
+    {
+      "teamMembers": "Max",
+      "ongoingTrainings": "Kubernetes",
+      "upcomingTrainings": "Microservice",
+      "id": 12
+    }
+  ],
+  "Angular": [
+    {
+      "id": 1,
+      "topicName": "Directives"
+    },
+    {
+      "id": 2,
+      "topicName": "Component"
+    },
+    {
+      "id": 3,
+      "topicName": "Routing"
+    }
+  ],
+  "Docker": [
+    {
+      "id": 1,
+      "trainingName": "Docker",
+      "topicName": "Server",
+      "trainingSeason": "ongoingTrainings",
+      "startDate": "2020-03-31T18:30:00.000Z",
+      "endDate": "2020-04-02T18:30:00.000Z"
+    }
+  ],
+  "Kubernetes": [
+    {
+      "id": 1,
+      "trainingName": "Kubernetes",
+      "topicName": "Configuration",
+      "trainingSeason": "ongoingTrainings",
+      "startDate": "2020-04-01T18:30:00.000Z",
+      "endDate": "2020-04-18T18:30:00.000Z"
+    }
+  ]
+}

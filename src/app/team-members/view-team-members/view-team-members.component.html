@@ -1,0 +1,31 @@
+<h2>Team Members</h2>
+<button class="btn btn-sm btn-success"  (click)="addMember()"> Add Member</button>
+
+<table class="table table-striped mt-2">
+    <thead class="thead-light">
+        <tr>
+            <th class="hidden">Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone Number</th>
+            <th>Email Id</th>
+            <th>Update</th>
+            <th>Remove</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let teamMember of teamMembers">
+            <td class="hidden"></td>
+            <td>{{teamMember.firstName}}</td>
+            <td>{{teamMember.lastName}}</td>
+            <td>{{teamMember.phoneNumber}}</td>
+            <td>{{teamMember.emailId}}</td>
+            <td><button class="btn btn-sm btn-primary" (click)="editMember(teamMember)">Edit</button></td>
+            <td><button class="btn btn-sm btn-danger" (click)="deleteMember(teamMember)">Delete</button></td>            
+        </tr>
+    </tbody>
+</table>
+
+<div *ngIf="btnTeamMember">
+    <app-add-team-members></app-add-team-members>
+</div>
